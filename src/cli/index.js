@@ -5,13 +5,14 @@ const args = process.argv.slice(2);
 const command = args[0];
 const envArg = args.find(a => a.startsWith('--env='));
 const env = envArg ? envArg.split('=')[1] : 'dev';
+const extraArgs = args.filter((a, i) => i > 0 && !a.startsWith('--env='));
 
 switch (command) {
   case 'burst':
-    codexBurst(env);
+    codexBurst(env, ...extraArgs);
     break;
   case 'update':
-    codexBurst(env);
+    codexBurst(env, ...extraArgs);
     break;
   default:
     console.log('Usage: ns <burst|update> [--env=dev]');
