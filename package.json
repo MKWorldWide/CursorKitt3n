@@ -1,0 +1,9 @@
+{
+  "name": "novasanctum",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node test/index.js",
+    "burst": "node src/cli/index.js burst"
+  }
+}
