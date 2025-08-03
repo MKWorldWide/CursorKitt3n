@@ -1,3 +1,6 @@
+/**
+ * Primary development agent embodying playful creativity.
+ */
 export const CursorKitten = {
   name: () => 'CursorKitten',
   async execute(...args) {
