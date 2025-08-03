@@ -1,3 +1,6 @@
+/**
+ * Stealth operations agent.
+ */
 export const Phantom = {
   name: () => 'Phantom',
   async execute(...args) {

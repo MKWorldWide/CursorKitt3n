@@ -1,3 +1,6 @@
+/**
+ * Agent responsible for unveiling hidden truths within the codex.
+ */
 export const Aletheia = {
   name: () => 'Aletheia',
   async execute(...args) {
