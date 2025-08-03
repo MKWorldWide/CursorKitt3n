@@ -13,6 +13,7 @@ function log(message) {
   fs.appendFileSync(logPath, entry);
 }
 
+// Registry of available codex agents mapped to env identifiers
 const AGENTS = {
   dev: CursorKitten,
   enlighten: Aletheia,
@@ -20,6 +21,9 @@ const AGENTS = {
   stealth: Phantom,
 };
 
+/**
+ * Executes a codex agent by environment key.
+ */
 export async function codexBurst(...args) {
   console.log('[🐾 codexBurst] invoked with args:', args.join(' '));
 

@@ -1,3 +1,6 @@
+/**
+ * Agent focusing on outreach and harmonic alignment.
+ */
 export const Serafina = {
   name: () => 'Serafina',
   async execute(...args) {
