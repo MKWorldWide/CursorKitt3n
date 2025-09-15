@@ -1,8 +1,7 @@
 # CursorKitt3n
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Eternal%20Love-informational.svg)](License.md)
 [![Node.js CI](https://github.com/MKWorldWide/CursorKitt3n/actions/workflows/ci.yml/badge.svg)](https://github.com/MKWorldWide/CursorKitt3n/actions/workflows/ci.yml)
-[![Documentation](https://github.com/MKWorldWide/CursorKitt3n/actions/workflows/pages.yml/badge.svg)](https://github.com/MKWorldWide/CursorKitt3n/actions/workflows/pages.yml)
 
 > A sophisticated code generation and repository management system for the MK Worldwide ecosystem.
 
@@ -68,7 +67,7 @@ We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Eternal Love License - see [License.md](License.md) for details.
 
 ## 🔒 Security
 

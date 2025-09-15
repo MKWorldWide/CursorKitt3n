@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express';
-import { verifyGitHubSignature } from '../utils/verifySignature';
-import { getOctokit } from '../utils/octokit';
+import { verifyGitHubSignature } from '../utils/verifySignature.js';
+import { getOctokit } from '../utils/octokit.js';
 
 /**
  * Registers GitHub-related webhook and API routes.

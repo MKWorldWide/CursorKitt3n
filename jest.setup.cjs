@@ -1,5 +1,5 @@
-// Global test setup
-import { TextEncoder, TextDecoder } from 'util';
+// Global test setup (CommonJS)
+const { TextEncoder, TextDecoder } = require('util');
 
 // Add TextEncoder and TextDecoder to global scope for testing
 // This is necessary for some Node.js modules that expect these globals

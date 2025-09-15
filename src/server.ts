@@ -1,7 +1,7 @@
 import express from 'express';
 import helmet from 'helmet';
 import dotenv from 'dotenv';
-import { registerGitHubRoutes } from './routes/github';
+import { registerGitHubRoutes } from './routes/github.js';
 
 /**
  * Bootstraps the HTTP server and wires core middleware.
