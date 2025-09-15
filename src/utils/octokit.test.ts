@@ -62,5 +62,8 @@ describe('getOctokit', () => {
     // @ts-expect-error intentionally missing installationId
     await expect(getOctokit('installation', {})).rejects.toThrow('installationId required');
   });
-});
 
+  it('throws on invalid authType', async () => {
+    await expect(getOctokit('bogus' as any)).rejects.toThrow('Invalid authType');
+  });
+});

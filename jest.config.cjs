@@ -2,26 +2,12 @@
 module.exports = {
   preset: 'ts-jest/presets/default-esm',
   testEnvironment: 'node',
-  globals: {
-    'ts-jest': {
-      useESM: true,
-      tsconfig: {
-        isolatedModules: true,
-        module: 'esnext',
-      },
-    },
-  },
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
   },
   extensionsToTreatAsEsm: ['.ts', '.tsx'],
   transform: {
-    '^.+\\.tsx?$': [
-      'ts-jest',
-      {
-        useESM: true,
-      },
-    ],
+    '^.+\\.tsx?$': ['ts-jest', { useESM: true, tsconfig: { isolatedModules: true, module: 'esnext' } }],
   },
   testMatch: [
     '**/__tests__/**/*.test.[jt]s?(x)',
